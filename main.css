@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #efc5c5;
+}
+
+.stats {
+        width: 100%;
+        background: rgb(113, 5, 5);
+        text-align: center;
+        color: #f7f2f2;
+}
+
+.stats_user {
+        display: inline-flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        align-items: center;
+        height: 100px;
+        margin-right: 50px;
+}
+
+.stats_computer {
+        display: inline-flex;
+        flex-flow: column wrap;
+        justify-content: space-around;
+        align-items: center;
+        height: 100px;
+        margin-left: 50px;
+}
+
+.player_name{
+        text-transform: uppercase;
+}
+
+.score {
+        font-size: 2em;
+}
+
